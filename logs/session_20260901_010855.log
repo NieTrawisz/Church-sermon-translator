@@ -1,0 +1,201 @@
+01:08:55  === session start | target=English | whisper=large-v3 (cuda/float16) | llm=Qwen3.5-4B-UD-Q4_K_XL.gguf n_ctx=8192 n_gpu_layers=-1 context_turns=6 no_think=True ===
+01:09:02  whisper model loaded in 6.3s
+01:09:04  llm model loaded in 2.8s
+01:09:51  [00:00] total=46.58s  whisper=38.37s  llm=8.21s  overhead=0ms  render=8ms  RTF=10.93  tok=14  tok/s=1.7  think=no  lang=pl
+01:09:51      SRC: Dzisiaj szósty rozdział Księgi Kaznodziei Salomona
+01:09:51      OUT: Today is the sixth chapter of the Book of Proverbs of Solomon.
+01:09:58  [00:04] total=6.82s  whisper=0.00s  llm=6.82s  overhead=0ms  render=1ms  RTF=1.12  tok=12  tok/s=1.8  think=no  lang=pl
+01:09:58      SRC: i będziemy na tytuł dzisiejszych rozważań
+01:09:58      OUT: and we will be on the title of today's reflections.
+01:10:05  [00:10] total=7.23s  whisper=0.00s  llm=7.23s  overhead=0ms  render=1ms  RTF=1.33  tok=9  tok/s=1.2  think=no  lang=pl
+01:10:05      SRC: Rozczarowanie. Gorzka pigułka, która leczy.
+01:10:05      OUT: Disappointment. A bitter pill that heals.
+01:10:13  [00:16] total=8.14s  whisper=0.00s  llm=8.14s  overhead=0ms  render=1ms  RTF=3.02  tok=9  tok/s=1.1  think=no  lang=pl
+01:10:13      SRC: Rozczarowanie. Gorzka pigułka, która leczy.
+01:10:13      OUT: Disappointment. A bitter pill that heals.
+01:10:22  [00:20] total=9.25s  whisper=0.00s  llm=9.25s  overhead=0ms  render=3ms  RTF=3.28  tok=11  tok/s=1.2  think=no  lang=pl
+01:10:22      SRC: W swoim czasie najbogatszy człowiek w Stanach Zjednoczonych
+01:10:22      OUT: At one time, the wealthiest person in the United States
+01:10:34  [00:23] total=11.28s  whisper=0.00s  llm=11.28s  overhead=0ms  render=19ms  RTF=2.73  tok=11  tok/s=1.0  think=no  lang=pl
+01:10:34      SRC: John D. Rockefeller, który przez 30 lat
+01:10:34      OUT: John D. Rockefeller, who for 30 years
+01:11:07  [00:27] total=33.37s  whisper=22.38s  llm=10.98s  overhead=0ms  render=1ms  RTF=7.83  tok=11  tok/s=1.0  think=no  lang=pl
+01:11:07      SRC: budował swoje imperium naftowe do tego stopnia,
+01:11:07      OUT: that he built his oil empire to such an extent,
+01:11:21  [00:31] total=13.75s  whisper=0.00s  llm=13.75s  overhead=0ms  render=2ms  RTF=1.98  tok=23  tok/s=1.7  think=no  lang=pl
+01:11:21      SRC: że w 1892 roku w wieku 53 lat kontrolował niemalże 90%
+01:11:21      OUT: that in 1892, at the age of 53, he controlled nearly 90%
+01:11:32  [00:38] total=11.27s  whisper=0.00s  llm=11.27s  overhead=0ms  render=1ms  RTF=2.97  tok=10  tok/s=0.9  think=no  lang=pl
+01:11:32      SRC: przemysłu rafinerii nafty w Stanach,
+01:11:32      OUT: of the oil refining industry in the United States,
+01:11:42  [00:42] total=10.29s  whisper=0.00s  llm=10.29s  overhead=0ms  render=1ms  RTF=3.55  tok=7  tok/s=0.7  think=no  lang=pl
+01:11:42      SRC: zaczął podupadać na zdrowiu.
+01:11:42      OUT: He began to decline in health.
+01:11:54  [00:45] total=11.46s  whisper=0.00s  llm=11.46s  overhead=0ms  render=4ms  RTF=2.60  tok=15  tok/s=1.3  think=no  lang=pl
+01:11:54      SRC: Chociaż swój pierwszy milion zarobił mając zaledwie 33 lata,
+01:11:54      OUT: Although he earned his first million at only 33 years of age,
+01:12:05  [00:50] total=11.44s  whisper=0.00s  llm=11.44s  overhead=0ms  render=2ms  RTF=3.58  tok=14  tok/s=1.2  think=no  lang=pl
+01:12:05      SRC: a wtedy ten milion dolarów miał dużo większą siłę nabywczą
+01:12:05      OUT: and at that time, that million dollars had much greater purchasing power.
+01:12:16  [00:53] total=10.79s  whisper=0.00s  llm=10.79s  overhead=0ms  render=1ms  RTF=3.37  tok=7  tok/s=0.6  think=no  lang=pl
+01:12:16      SRC: niż obecny, to dysponował kapitałem,
+01:12:16      OUT: than today, he had capital,
+01:13:11  [00:57] total=54.41s  whisper=43.12s  llm=11.28s  overhead=0ms  render=4ms  RTF=17.55  tok=9  tok/s=0.8  think=no  lang=pl
+01:13:11      SRC: wpływem, wszystkim, co świat mógł tobie powiedzieć,
+01:13:11      OUT: influence, everything the world could tell you,
+01:13:21  [01:00] total=10.12s  whisper=0.00s  llm=10.12s  overhead=0ms  render=2ms  RTF=7.67  tok=6  tok/s=0.6  think=no  lang=pl
+01:13:21      SRC: że jest twoim pragnieniem.
+01:13:21      OUT: that it is your desire.
+01:13:30  [01:02] total=9.65s  whisper=0.00s  llm=9.65s  overhead=0ms  render=8ms  RTF=6.70  tok=6  tok/s=0.6  think=no  lang=pl
+01:13:30      SRC: Ale jego ciało słabło.
+01:13:30      OUT: But his body was weakening.
+01:13:40  [01:04] total=10.18s  whisper=0.00s  llm=10.18s  overhead=0ms  render=1ms  RTF=7.17  tok=8  tok/s=0.8  think=no  lang=pl
+01:13:40      SRC: Włosy wypadały garściami.
+01:13:40      OUT: His hair fell out in handfuls.
+01:13:51  [01:06] total=10.91s  whisper=0.00s  llm=10.91s  overhead=0ms  render=3ms  RTF=2.70  tok=15  tok/s=1.4  think=no  lang=pl
+01:13:51      SRC: Żołądek był tak delikatny, że ledwie mógł zatrzymać krakersy z mlekiem.
+01:13:51      OUT: His stomach was so delicate that he could barely hold down crackers with milk.
+01:14:03  [01:11] total=11.40s  whisper=0.00s  llm=11.40s  overhead=0ms  render=1ms  RTF=3.75  tok=18  tok/s=1.6  think=no  lang=pl
+01:14:03      SRC: Jego otoczenie patrzyło na człowieka, który już dłużej nie mógł spać,
+01:14:03      OUT: His surroundings looked upon a man who had not been able to sleep for a long time,
+01:14:14  [01:15] total=10.88s  whisper=0.00s  llm=10.88s  overhead=0ms  render=1ms  RTF=3.11  tok=11  tok/s=1.0  think=no  lang=pl
+01:14:14      SRC: nie uśmiechał się i zdawało się, że przestał się przejmować
+01:14:14      OUT: he did not smile and seemed to have stopped caring,
+01:14:25  [01:18] total=11.31s  whisper=0.00s  llm=11.31s  overhead=0ms  render=2ms  RTF=3.85  tok=9  tok/s=0.8  think=no  lang=pl
+01:14:25      SRC: tą fortuną, którą tak pieczołowicie zbijał.
+01:14:25      OUT: that fortune which he had so carefully accumulated.
+01:14:36  [01:22] total=11.01s  whisper=0.00s  llm=11.01s  overhead=0ms  render=2ms  RTF=8.34  tok=5  tok/s=0.5  think=no  lang=pl
+01:14:36      SRC: Ale coś wtedy się zmieniło.
+01:14:36      OUT: But something changed then.
+01:14:46  [01:24] total=10.33s  whisper=0.00s  llm=10.33s  overhead=0ms  render=2ms  RTF=4.57  tok=8  tok/s=0.8  think=no  lang=pl
+01:14:46      SRC: Rockefeller przestał króczowo trzymać swój kapitał,
+01:14:46      OUT: Rockefeller stopped hoarding his capital,
+01:15:29  [01:27] total=42.68s  whisper=31.40s  llm=11.28s  overhead=0ms  render=1ms  RTF=17.07  tok=11  tok/s=1.0  think=no  lang=pl
+01:15:29      SRC: w garści, i zaczął dzielić się pieniędzmi.
+01:15:29      OUT: in his grasp, and began to share his money.
+01:15:41  [01:30] total=12.05s  whisper=0.00s  llm=12.05s  overhead=0ms  render=2ms  RTF=2.94  tok=17  tok/s=1.4  think=no  lang=pl
+01:15:41      SRC: W 1890 roku stał się fundatorem uniwersytetu w Chicago.
+01:15:41      OUT: In 1890, he became the founder of the University of Chicago.
+01:15:50  [01:35] total=9.09s  whisper=0.00s  llm=9.09s  overhead=0ms  render=1ms  RTF=3.58  tok=7  tok/s=0.8  think=no  lang=pl
+01:15:50      SRC: Dotacje na ten obiekt z biegiem czasu
+01:15:50      OUT: Grants for this building over time
+01:16:00  [01:37] total=10.12s  whisper=0.00s  llm=10.12s  overhead=0ms  render=2ms  RTF=3.89  tok=9  tok/s=0.9  think=no  lang=pl
+01:16:00      SRC: urosły do 80 milionów dolarów od niego.
+01:16:00      OUT: rose to $80 million from him.
+01:16:11  [01:41] total=10.99s  whisper=0.00s  llm=10.99s  overhead=0ms  render=1ms  RTF=2.29  tok=15  tok/s=1.4  think=no  lang=pl
+01:16:11      SRC: W 1901 roku wsparł pierwsze centrum badań biomedycznych.
+01:16:11      OUT: In 1901, he supported the first biomedical research center.
+01:16:24  [01:46] total=12.41s  whisper=0.00s  llm=12.41s  overhead=0ms  render=2ms  RTF=2.85  tok=15  tok/s=1.2  think=no  lang=pl
+01:16:24      SRC: W 1909 roku, 8 lat później, komisja sanitarna Rockefellera
+01:16:24      OUT: In 1909, eight years later, Rockefeller's sanitary commission
+01:16:34  [01:51] total=10.51s  whisper=0.00s  llm=10.51s  overhead=0ms  render=1ms  RTF=2.48  tok=11  tok/s=1.0  think=no  lang=pl
+01:16:34      SRC: wyleczyła około miliona przypadków pacjentów zakażonych pasożytem
+01:16:34      OUT: cured approximately one million patients infected with the parasite.
+01:16:44  [01:55] total=9.93s  whisper=0.00s  llm=9.93s  overhead=0ms  render=1ms  RTF=6.62  tok=8  tok/s=0.8  think=no  lang=pl
+01:16:44      SRC: Tengorycem dwunastnicy,
+01:16:44      OUT: with the twelve-legged centipede,
+01:17:29  [01:57] total=45.28s  whisper=34.21s  llm=11.07s  overhead=0ms  render=5ms  RTF=11.73  tok=12  tok/s=1.1  think=no  lang=pl
+01:17:29      SRC: który był plagą w jedenastu południowych Stanach Ameryki Północnej.
+01:17:29      OUT: which was a plague in eleven southern states of North America.
+01:17:42  [02:01] total=12.19s  whisper=0.01s  llm=12.18s  overhead=0ms  render=1ms  RTF=3.05  tok=16  tok/s=1.3  think=no  lang=pl
+01:17:42      SRC: Można się by o tym zarazić chodząc boso, w takim ciepłym, wiódłotnym klimacie.
+01:17:42      OUT: You could get infected by walking barefoot in such a hot, humid climate.
+01:17:53  [02:05] total=11.38s  whisper=0.00s  llm=11.38s  overhead=0ms  render=8ms  RTF=2.85  tok=14  tok/s=1.2  think=no  lang=pl
+01:17:53      SRC: A w 1913 założył fundację Rockefellera
+01:17:53      OUT: And in 1913, he founded the Rockefeller Foundation.
+01:18:06  [02:09] total=12.73s  whisper=0.00s  llm=12.73s  overhead=0ms  render=1ms  RTF=3.18  tok=16  tok/s=1.3  think=no  lang=pl
+01:18:06      SRC: z początkową kontrybucją bogatela 100 milionów dolarów.
+01:18:06      OUT: with an initial contribution of $100 million from the philanthropist.
+01:18:17  [02:14] total=10.90s  whisper=0.00s  llm=10.90s  overhead=0ms  render=2ms  RTF=3.63  tok=7  tok/s=0.6  think=no  lang=pl
+01:18:17      SRC: Jego zdrowie już przestało się pogarszać.
+01:18:17      OUT: His health had finally stopped worsening.
+01:18:33  [02:17] total=16.02s  whisper=0.00s  llm=16.02s  overhead=0ms  render=2ms  RTF=2.00  tok=27  tok/s=1.7  think=no  lang=pl
+01:18:33      SRC: Kiedy 23 maja 1937 roku, odszedł on spokojnie na tamten świat w wieku 97 lat,
+01:18:33      OUT: On May 23, 1937, he peacefully passed to the other side at the age of 97.
+01:19:24  [02:25] total=51.28s  whisper=37.77s  llm=13.52s  overhead=0ms  render=2ms  RTF=7.48  tok=19  tok/s=1.4  think=no  lang=pl
+01:19:24      SRC: to gazety, które niegdyś spekulowały, czy przeżyje swoje pięćdziesiąte lata, już dawno nie istniały.
+01:19:24      OUT: those newspapers, which once speculated whether he would survive his fifties, no longer existed.
+01:19:39  [02:32] total=15.09s  whisper=0.00s  llm=15.09s  overhead=0ms  render=1ms  RTF=2.52  tok=29  tok/s=1.9  think=no  lang=pl
+01:19:39      SRC: Był jednak etap w jego życiu, gdy mógł za dzisiejszym tekstem z Księgi Kaznodziei Salomona powiedzieć,
+01:19:39      OUT: There was, however, a stage in his life when he could say, according to today's text from the Book of Proverbs of Solomon,
+01:19:54  [02:38] total=14.81s  whisper=0.00s  llm=14.81s  overhead=0ms  render=1ms  RTF=2.12  tok=20  tok/s=1.4  think=no  lang=pl
+01:19:54      SRC: że jest zło pod słońcem, gdy jakiemuś człowiekowi Bóg daje bogactwo, majątek i sławę tak,
+01:19:54      OUT: that there is evil under the sun, when God gives a man wealth, possessions, and honor,
+01:20:08  [02:45] total=13.67s  whisper=0.00s  llm=13.67s  overhead=0ms  render=1ms  RTF=3.42  tok=14  tok/s=1.0  think=no  lang=pl
+01:20:08      SRC: że nie brakuje jego duszy nic z tego, czegokolwiek by pragnął,
+01:20:08      OUT: that nothing is lacking to his soul from all that he may desire,
+01:20:22  [02:49] total=14.28s  whisper=0.00s  llm=14.28s  overhead=0ms  render=2ms  RTF=3.57  tok=12  tok/s=0.8  think=no  lang=pl
+01:20:22      SRC: a jednak Bóg nie daje mu możliwości spożywać tego.
+01:20:22      OUT: yet God does not give him the ability to enjoy it.
+01:20:35  [02:53] total=12.98s  whisper=0.00s  llm=12.98s  overhead=0ms  render=11ms  RTF=6.49  tok=9  tok/s=0.7  think=no  lang=pl
+01:20:35      SRC: Był taki etap w jego życiu.
+01:20:35      OUT: There was such a stage in his life.
+01:21:26  [02:55] total=51.41s  whisper=36.87s  llm=14.54s  overhead=0ms  render=3ms  RTF=7.34  tok=20  tok/s=1.4  think=no  lang=pl
+01:21:26      SRC: Przeczytajmy nasz fragment i zastanówmy się nad problemem rozczarowania, frustracji, jaki jest tu poruszony.
+01:21:26      OUT: Let us read our passage and reflect upon the problem of disappointment and frustration that is brought up here.
+01:21:38  [03:02] total=12.05s  whisper=0.00s  llm=12.05s  overhead=0ms  render=1ms  RTF=4.02  tok=10  tok/s=0.8  think=no  lang=pl
+01:21:38      SRC: Ale zanim to uczynimy, pomódlmy się.
+01:21:38      OUT: But before we do that, let us pray.
+01:21:52  [03:05] total=13.23s  whisper=0.00s  llm=13.23s  overhead=0ms  render=1ms  RTF=2.21  tok=17  tok/s=1.3  think=no  lang=pl
+01:21:52      SRC: Panie Boże, wyznajemy, jesteśmy skończonymi ludźmi, ze skończoną naszą zdolnością pojmowania,
+01:21:52      OUT: Lord God, we confess that we are finite people, with finite capacity to understand,
+01:22:03  [03:11] total=11.70s  whisper=0.00s  llm=11.70s  overhead=0ms  render=9ms  RTF=2.34  tok=16  tok/s=1.4  think=no  lang=pl
+01:22:03      SRC: ale to natchnione słowo Tyś, Boże, Duchu Święty, natchnął.
+01:22:03      OUT: but it is You, O God, the Holy Spirit, who inspired it.
+01:22:16  [03:16] total=13.17s  whisper=0.00s  llm=13.17s  overhead=0ms  render=2ms  RTF=1.46  tok=23  tok/s=1.7  think=no  lang=pl
+01:22:16      SRC: Dlatego prosimy Cię, rozjaśnij nasze umysły, abyśmy mogli zrozumieć, zachwycić się i zastosować te lekcje,
+01:22:16      OUT: Therefore we ask You, enlighten our minds so that we may understand, rejoice in, and apply these lessons,
+01:23:05  [03:25] total=48.38s  whisper=36.84s  llm=11.54s  overhead=0ms  render=1ms  RTF=16.13  tok=10  tok/s=0.9  think=no  lang=pl
+01:23:05      SRC: które dzisiaj przygotowałeś dla nas. Amen.
+01:23:05      OUT: which You have prepared for us today. Amen.
+01:23:18  [03:28] total=13.19s  whisper=0.00s  llm=13.19s  overhead=0ms  render=2ms  RTF=2.64  tok=16  tok/s=1.2  think=no  lang=pl
+01:23:18      SRC: Przeczytamy szósty, cały szósty rozdział Księgi Kaznodziei Salomona.
+01:23:18      OUT: Let us read the entire sixth chapter of the Book of Proverbs of Solomon.
+01:23:32  [03:33] total=14.09s  whisper=0.00s  llm=14.09s  overhead=0ms  render=1ms  RTF=2.82  tok=18  tok/s=1.3  think=no  lang=pl
+01:23:32      SRC: Jest zło, które widziałem pod słońcem i które jest powszechne wśród ludzi.
+01:23:32      OUT: There is evil that I have seen under the sun, and it is common among mankind.
+01:23:48  [03:38] total=16.35s  whisper=0.00s  llm=16.35s  overhead=0ms  render=1ms  RTF=2.34  tok=25  tok/s=1.5  think=no  lang=pl
+01:23:48      SRC: Gdy jakiemuś człowiekowi Bóg dał bogactwo, majątek i sławę, tak, że nie brakuje jego duszy nic z tego, czegokolwiek by pragnął,
+01:23:48      OUT: When a man God gives him wealth, possessions, and honor, so that his soul lacks nothing of all that he desires,
+01:24:06  [03:45] total=17.63s  whisper=0.00s  llm=17.63s  overhead=0ms  render=2ms  RTF=3.53  tok=19  tok/s=1.1  think=no  lang=pl
+01:24:06      SRC: jednak Bóg nie daje mu możliwości spożywać tego, ale spożywa to obcy człowiek.
+01:24:06      OUT: yet God does not give him the ability to consume it, but a foreign man consumes it.
+01:24:03  [03:50] total=14.51s  whisper=0.00s  llm=14.51s  overhead=0ms  render=1ms  RTF=4.84  tok=10  tok/s=0.7  think=no  lang=pl
+01:24:03      SRC: Jest to marnością i ciężką niedolą.
+01:24:03      OUT: It is a waste and a heavy affliction.
+01:24:54  [03:53] total=51.31s  whisper=34.06s  llm=17.25s  overhead=0ms  render=2ms  RTF=5.70  tok=34  tok/s=2.0  think=no  lang=pl
+01:24:54      SRC: Choćby ktoś spłodził stu synów, żył wiele lat i dni jego lat się przedłużyły, a jego dusza nie była nasycona dobrej, nie miał nawet pogrzebu,
+01:24:54      OUT: Even if a man had a hundred children, lived many years, and his days were prolonged, and his soul was not filled with good, he would have no burial,
+01:25:08  [04:02] total=13.02s  whisper=0.00s  llm=13.02s  overhead=0ms  render=64ms  RTF=4.34  tok=12  tok/s=0.9  think=no  lang=pl
+01:25:08      SRC: powiadam, lepszy jest od niego martwy płód.
+01:25:08      OUT: I say, he is better off than a dead child.
+01:25:23  [04:05] total=15.60s  whisper=0.00s  llm=15.60s  overhead=0ms  render=9ms  RTF=2.60  tok=26  tok/s=1.7  think=no  lang=pl
+01:25:23      SRC: Ten bowiem przychodzi w marności i odchodzi w ciemności, a jego imię zostaje okryte ciemnością.
+01:25:23      OUT: For he comes into the light of the world in futility and departs into darkness, and his name is covered with darkness.
+01:25:37  [04:11] total=14.34s  whisper=0.00s  llm=14.34s  overhead=0ms  render=1ms  RTF=2.39  tok=19  tok/s=1.3  think=no  lang=pl
+01:25:37      SRC: Nie widział nawet słońca i nic nie wie, bo on większy spokój niż tamten.
+01:25:37      OUT: He saw neither the sun nor knows anything, for he is greater in peace than that one.
+01:25:51  [04:17] total=13.09s  whisper=0.00s  llm=13.09s  overhead=0ms  render=1ms  RTF=2.62  tok=16  tok/s=1.2  think=no  lang=pl
+01:25:51      SRC: Bo choćby nawet żył przez dwa tysiące lat, nie zaznałby żadnego dobra.
+01:25:51      OUT: For even if he lived for two thousand years, he would know no good.
+01:26:45  [04:22] total=54.28s  whisper=42.37s  llm=11.91s  overhead=0ms  render=2ms  RTF=18.09  tok=9  tok/s=0.8  think=no  lang=pl
+01:26:45      SRC: Czy wszyscy nie idą do jednego miejsca?
+01:26:45      OUT: Do not all go to the same place?
+01:26:58  [04:25] total=12.99s  whisper=0.00s  llm=12.99s  overhead=0ms  render=1ms  RTF=2.60  tok=18  tok/s=1.4  think=no  lang=pl
+01:26:58      SRC: Wszelki trud człowieka jest dla jego ust, a jednak jego dusza nie może się nasycić.
+01:26:58      OUT: All the toil of a man is for his mouth, yet his soul cannot be satisfied.
+01:27:13  [04:30] total=14.95s  whisper=0.00s  llm=14.95s  overhead=0ms  render=13ms  RTF=2.14  tok=31  tok/s=2.1  think=no  lang=pl
+01:27:13      SRC: Czego więcej ma bowiem mądry od głupca? Albo czego więcej ma ubogi, który umie postępować wśród żyjących?
+01:27:13      OUT: What does the wise man have more than the fool? Or what does the poor man who knows how to walk among the living have more than the rich?
+01:27:26  [04:37] total=12.74s  whisper=0.00s  llm=12.74s  overhead=0ms  render=9ms  RTF=3.18  tok=14  tok/s=1.1  think=no  lang=pl
+01:27:26      SRC: Lepsze jest to, co oczy widzą, niż ciągłe pragnienie.
+01:27:26      OUT: Better is that which the eyes see than the heart's constant longing.
+01:27:37  [04:41] total=11.82s  whisper=0.00s  llm=11.82s  overhead=0ms  render=1ms  RTF=3.94  tok=11  tok/s=0.9  think=no  lang=pl
+01:27:37      SRC: To również jest marnością i utrapieniem ducha.
+01:27:37      OUT: That is also vanity and a torment of the spirit.
+01:27:51  [04:44] total=13.47s  whisper=0.00s  llm=13.47s  overhead=0ms  render=8ms  RTF=2.25  tok=25  tok/s=1.9  think=no  lang=pl
+01:27:51      SRC: Temu, kto jest, już nadano imię i wiadomo, że jest człowiekiem i że nie może się on spierać z mocniejszym od siebie.
+01:27:51      OUT: To one, whose name has already been given, is known to be a man who cannot contend with one stronger than himself.
+01:28:07  [04:50] total=16.50s  whisper=0.00s  llm=16.50s  overhead=0ms  render=1ms  RTF=16.50  tok=36  tok/s=2.2  think=no  lang=pl
+01:28:07      SRC: Ponieważ wiele jest marnością i utrapieniem ducha. Temu, kto jest, już nadano imię i wiadomo, że jest człowiekiem i że nie może się on spierać z mocniejszym od siebie.
+01:28:07      OUT: For much is vanity and a torment of the spirit. To one, whose name has already been given, is known to be a man who cannot contend with one stronger than himself.

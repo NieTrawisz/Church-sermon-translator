@@ -1,0 +1,15 @@
+# Core pipeline
+faster-whisper>=1.0.0
+llama-cpp-python>=0.3.0
+rich>=13.0.0
+
+# Only needed for live microphone mode (--mic)
+numpy>=1.24.0
+sounddevice>=0.4.6
+
+# NOTE on GPU builds:
+#   * faster-whisper uses CTranslate2. For NVIDIA GPUs install CUDA + cuDNN,
+#     then it uses the GPU automatically with device="cuda".
+#   * llama-cpp-python must be BUILT with CUDA to use your GPU. Install with:
+#       CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python --no-cache-dir
+#     (or grab a prebuilt CUDA wheel from the project's releases).

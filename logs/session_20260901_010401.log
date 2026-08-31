@@ -1,0 +1,18 @@
+01:04:01  === session start | target=English | whisper=distil-large-v3 (cuda/float16) | llm=Qwen3.5-4B-UD-Q4_K_XL.gguf n_ctx=8192 n_gpu_layers=-1 context_turns=6 no_think=True ===
+01:07:19  whisper model loaded in 198.0s
+01:07:22  llm model loaded in 2.8s
+01:07:42  [00:00] total=20.88s  whisper=12.80s  llm=8.08s  overhead=0ms  render=8ms  RTF=2.17  tok=23  tok/s=2.8  think=no  lang=pl
+01:07:42      SRC: Today is the sixth of the book of Sondi Solomona, and we're in the title of today's
+01:07:42      OUT: Today is the sixth of the book of Sondi Solomona, and we are in the title of today's
+01:07:52  [00:09] total=9.47s  whisper=1.16s  llm=8.31s  overhead=0ms  render=2ms  RTF=0.88  tok=24  tok/s=2.9  think=no  lang=pl
+01:07:52      SRC: of the world. In the way of course a piguulka, which leachy, in the
+01:07:52      OUT: of the world. In the way, of course, a piguulka, which is leachy, in
+01:08:01  [00:20] total=8.81s  whisper=0.00s  llm=8.81s  overhead=0ms  render=1ms  RTF=1.18  tok=20  tok/s=2.3  think=no  lang=pl
+01:08:01      SRC: world in the United States, John D. Rockefeller, who, for 30 years, built
+01:08:01      OUT: world in the United States, John D. Rockefeller, who, for 30 years, built
+01:08:12  [00:27] total=11.03s  whisper=0.00s  llm=11.03s  overhead=0ms  render=1ms  RTF=1.44  tok=26  tok/s=2.4  think=no  lang=pl
+01:08:12      SRC: his empire naftover, to the extent that in 1892 year, in the years of 53 years,
+01:08:12      OUT: his empire, Naftover, to the extent that in 1892, in the years of 53,
+01:08:22  [00:35] total=10.39s  whisper=1.27s  llm=9.13s  overhead=0ms  render=2ms  RTF=1.65  tok=7  tok/s=0.8  think=no  lang=pl
+01:08:22      SRC: controlled almost 90% of the
+01:08:22      OUT: controlled almost 90% of
