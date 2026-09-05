@@ -42,6 +42,7 @@ def build_config(args: argparse.Namespace) -> Config:
 
     cfg.log_dir = args.log_dir
     cfg.logging_enabled = not args.no_log
+    cfg.llama.verbose = args.verbose_llm
 
     return cfg
 
@@ -72,6 +73,7 @@ def main() -> int:
     p.add_argument("--no-original", action="store_true", help="Hide the source text, show only translation")
     p.add_argument("--log-dir", default="logs", help="Directory for session .log / .jsonl files")
     p.add_argument("--no-log", action="store_true", help="Disable writing log files")
+    p.add_argument("--verbose-llm", action="store_true", help="Print llama.cpp load diagnostics (shows GPU offload)")
 
     args = p.parse_args()
     cfg = build_config(args)

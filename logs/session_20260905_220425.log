@@ -1,0 +1,1 @@
+22:04:25  === session start | target=English | whisper=turbo (cuda/float16) | llm=Qwen3.5-4B-UD-Q4_K_XL.gguf n_ctx=8192 n_gpu_layers=-1 context_turns=6 no_think=True ===

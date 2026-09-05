@@ -43,7 +43,7 @@ class Translator:
             model_path=path,
             n_ctx=self.llama_cfg.n_ctx,
             n_gpu_layers=self.llama_cfg.n_gpu_layers,
-            verbose=False,
+            verbose=self.llama_cfg.verbose,
         )
         print("[llama] ready.")
 

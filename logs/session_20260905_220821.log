@@ -1,0 +1,24 @@
+22:08:21  === session start | target=English | whisper=large-v3 (cuda/float16) | llm=Qwen3.5-4B-UD-Q4_K_XL.gguf n_ctx=8192 n_gpu_layers=-1 context_turns=6 no_think=True ===
+22:08:27  whisper model loaded in 6.2s
+22:08:30  llm model loaded in 2.5s
+22:09:08  [00:00] total=38.42s  whisper=31.13s  llm=7.29s  overhead=0ms  render=2ms  RTF=9.02  tok=14  tok/s=1.9  think=no  lang=pl
+22:09:08      SRC: Dzisiaj szósty rozdział Księgi Kaznodziei Salomona
+22:09:08      OUT: Today is the sixth chapter of the Book of Proverbs of Solomon.
+22:09:15  [00:04] total=7.15s  whisper=0.00s  llm=7.15s  overhead=0ms  render=1ms  RTF=1.17  tok=12  tok/s=1.7  think=no  lang=pl
+22:09:15      SRC: i będziemy na tytuł dzisiejszych rozważań
+22:09:15      OUT: and we will be on the title of today's reflections.
+22:09:23  [00:10] total=7.34s  whisper=0.00s  llm=7.34s  overhead=0ms  render=1ms  RTF=1.35  tok=9  tok/s=1.2  think=no  lang=pl
+22:09:23      SRC: Rozczarowanie. Gorzka pigułka, która leczy.
+22:09:23      OUT: Disappointment. A bitter pill that heals.
+22:09:31  [00:16] total=8.52s  whisper=0.00s  llm=8.52s  overhead=0ms  render=1ms  RTF=3.15  tok=9  tok/s=1.1  think=no  lang=pl
+22:09:31      SRC: Rozczarowanie. Gorzka pigułka, która leczy.
+22:09:31      OUT: Disappointment. A bitter pill that heals.
+22:09:40  [00:20] total=9.16s  whisper=0.00s  llm=9.16s  overhead=0ms  render=2ms  RTF=3.25  tok=11  tok/s=1.2  think=no  lang=pl
+22:09:40      SRC: W swoim czasie najbogatszy człowiek w Stanach Zjednoczonych
+22:09:40      OUT: At one time, the wealthiest person in the United States
+22:09:50  [00:23] total=9.85s  whisper=0.00s  llm=9.85s  overhead=0ms  render=1ms  RTF=2.38  tok=11  tok/s=1.1  think=no  lang=pl
+22:09:50      SRC: John D. Rockefeller, który przez 30 lat
+22:09:50      OUT: John D. Rockefeller, who for 30 years
+22:10:26  [00:27] total=35.80s  whisper=23.82s  llm=11.98s  overhead=0ms  render=1ms  RTF=8.40  tok=11  tok/s=0.9  think=no  lang=pl
+22:10:26      SRC: budował swoje imperium naftowe do tego stopnia,
+22:10:26      OUT: that he built his oil empire to such an extent,

@@ -55,8 +55,8 @@ to fit your GPU — you said you'll decide once you know the card:
 | 16–24 GB | `Qwen3.5-9B` Q8_0, or `Qwen3.5-27B` Q4_K_M | Best quality for one card |
 | 24 GB+ (or split) | `Qwen3.5-35B-A3B` | MoE: only 3B active params, so it's fast for its quality |
 
-Remember whisper also needs VRAM (`large-v3` ≈ 3–4 GB, or use `distil-large-v3`
-/ `medium` to leave more room for the LLM). Download example:
+Remember whisper also needs VRAM (`large-v3` ≈ 3–4 GB, or use `large-v3-turbo`
+/ `medium` — both multilingual — to leave more room for the LLM). Download example:
 
 ```bash
 pip install huggingface_hub
@@ -86,7 +86,7 @@ Live microphone (the real-time target — needs `sounddevice` + `numpy`):
 python main.py --mic --model models/Qwen3.5-9B-Q4_K_M.gguf --target-lang English
 ```
 
-Useful flags: `--whisper-model distil-large-v3` (faster), `--device cpu`,
+Useful flags: `--whisper-model turbo` (large-v3-turbo: ~4x faster, still multilingual), `--device cpu`,
 `--n-gpu-layers 20` (partial GPU offload if VRAM is tight), `--no-original`
 (show only the translation), `--context-turns 8` (more context memory).
 
@@ -103,7 +103,7 @@ line by line.
 The `--mic` path uses simple energy-based silence detection to decide when a
 phrase has ended. To lower latency and sharpen phrase boundaries later:
 
-- Drop `--beam_size` toward 1 and use `distil-large-v3` for the transcriber.
+- Drop `--beam_size` toward 1 and use `turbo` (large-v3-turbo) for the transcriber. Do NOT use `distil-*` models unless your audio is English — they are English-only.
 - Swap the energy detector in `transcriber.stream_microphone()` for a real VAD
   (webrtcvad or Silero) — the yield contract stays the same, so nothing else
   changes.

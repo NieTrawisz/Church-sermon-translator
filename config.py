@@ -54,9 +54,11 @@ def language_name(code: str | None) -> str:
 class WhisperConfig:
     """Settings for the faster-whisper transcription stage."""
 
-    # "tiny", "base", "small", "medium", "large-v3", "distil-large-v3", or a path.
-    # large-v3 is most accurate; distil-large-v3 is ~2x faster with minimal loss
-    # and is a good default for near-real-time on a decent GPU.
+    # "tiny", "base", "small", "medium", "large-v3", "large-v3-turbo", or a path.
+    # large-v3 is most accurate. "turbo" (large-v3-turbo) is ~4x faster and
+    # still MULTILINGUAL, so it's the right speed pick for non-English audio.
+    # NOTE: the distil-* checkpoints are ENGLISH-ONLY — do not use them for
+    # Polish or other languages; they'll force-decode the audio as English.
     model_size: str = "large-v3"
 
     # "cuda" if you have an NVIDIA GPU, otherwise "cpu". "auto" lets CTranslate2
@@ -106,6 +108,11 @@ class LlamaConfig:
     # Qwen3.x can "think" before answering. For live translation we want the
     # answer immediately, so we disable it. Leave True.
     disable_thinking: bool = True
+
+    # Set True to make llama.cpp print load-time diagnostics — crucially, the
+    # "offloaded N/M layers to GPU" line that confirms GPU acceleration is
+    # actually working. Great for debugging "why is generation slow".
+    verbose: bool = False
 
     # How many previous (source -> translation) pairs to feed back in as context.
     # This is what keeps names/terms consistent across the service.
